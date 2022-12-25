@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body{
+  background-color: #353A47 !important;
+  }
+  
+  .container {
+    width: 300px !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display:flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #display {
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 30px;
+    color: white;
+  } 
+  .btn{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  } 
+ 
+  .btn:focus{
+  outline: none !important;
+  box-shadow: none !important;
+  }
